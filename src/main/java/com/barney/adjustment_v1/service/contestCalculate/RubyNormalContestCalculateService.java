@@ -2,7 +2,7 @@ package com.barney.adjustment_v1.service.contestCalculate;
 
 import com.barney.contest.Contest;
 
-public class RubyNormalContestCalculateServiceService implements ContestCalculateService {
+public class RubyNormalContestCalculateService implements ContestCalculateService {
     @Override
     public int calculateDueSlipNumber(Contest contest) {
         if (contest.getEntryFee().getFee() <= 20_000L) {
